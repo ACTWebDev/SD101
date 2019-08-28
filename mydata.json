@@ -1,0 +1,14 @@
+{
+"productName": "Coke",
+"serving":"16oz",
+"package":"bottle",
+"prices":"1.99",
+"qty":"1"
+}
+{
+  "productName": "Pepsi",
+  "serving":"12oz",
+  "package":"cann",
+  "prices":"4.99",
+  "qty":"6"
+  }
