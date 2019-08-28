@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="html, training, lessons, templates">
+    <meta lang="en-US">
+    
+    <title>Ajax</title>
+    <style>
+    code{
+      width:'500px';
+      height:'500px';
+      
+    }
+
+    #btn1{
+      width: '75px';
+
+    }
+    </style>
+
+
+  </head>
+
+
+  <body>
+    <h1>Ajax</h1>
+    <code id='target'>    </code>
+
+    <input type='button' id="btn1" onclick="ajaxRequest()" value='Request Data'>
+  
+  <script>
+  function ajaxRequest(){
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          document.getElementById("target").innerHTML = this.responseText;
+        }
+    };
+    xhttp.open("GET","https://api.weather.gov/gridpoints/TOP/31,80/forecast",true);
+    xhttp.send();
+    xhttp.onreadystatechange
+   
+
+  
+    
+  }
+  
+
+  </script>
+
+  </body>
+</html>
