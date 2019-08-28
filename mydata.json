@@ -1,14 +1,33 @@
+
 {
-"productName": "Coke",
-"serving":"16oz",
-"package":"bottle",
-"prices":"1.99",
-"qty":"1"
+"products": [
+    {
+    "productName": "Coke",
+    "serving":"16oz",
+    "package":"bottle",
+    "prices":"1.99",
+    "qty":"1"
+    },
+    {
+    "productName": "Pepsi",
+    "serving":"12oz",
+    "package":"can",
+    "prices":"4.99",
+    "qty":"6"
+    },
+    {
+    "productName": "7UP",
+    "serving":"2 liter",
+    "package":"bottle",
+    "prices":"2.99",
+    "qty":"1"
+    },
+    {
+    "productName": "Coors Light",
+    "serving":"12 oz",
+    "package":"can",
+    "prices":"8.99",
+    "qty":"6"
+    }
+  ]
 }
-{
-  "productName": "Pepsi",
-  "serving":"12oz",
-  "package":"cann",
-  "prices":"4.99",
-  "qty":"6"
-  }
